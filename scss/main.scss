@@ -1,4 +1,5 @@
 @import "config";
+@import "utill";
 html,
 body {
   height: 100%;
@@ -7,6 +8,7 @@ body {
 body {
   font-family: "Source Sans Pro";
   margin: 0;
+  display: block;
 }
 
 h1 {
@@ -173,33 +175,7 @@ p {
     background-color: #329dfa;
   }
 }
-footer {
-  justify-content: center;
-  max-width: $sizeLg;
-  margin: 50px auto;
-  background-color: $background_color;
-  //  padding: 50px 100px;
-  font-size: 18px;
-  span {
-    font-weight: bold;
-    line-height: 32px;
-  }
-  .footer-lower {
-    background-color: #f4f4f4;
-    background-image: url("./images/footer.svg");
-    height: 300px;
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  ul {
-    //font-size: 50px;
-    list-style: none;
-    line-height: 42px;
-    li {
-    }
-  }
-}
+
 .nav {
   font-weight: bold;
   &-container {
@@ -211,5 +187,51 @@ footer {
     font-weight: bold;
     font-size: $text_size_small;
     line-height: 23px;
+  }
+}
+
+footer {
+  //text-align: center;
+  margin: 0 auto;
+  display: block;
+  max-width: $sizeLg;
+  //margin: 50px;
+  //background-color: $background_color;
+  //  padding: 50px 100px;
+  font-size: 18px;
+  .privacy {
+    a {
+      //text-align: center;
+    }
+    margin: 30px;
+  }
+  span {
+    font-weight: bold;
+    line-height: 32px;
+  }
+  .footer-lower {
+    //justify-self: center;
+    //justify-content: center;
+    //width: 100%;
+    //position: fixed;
+    bottom: 0px;
+    background-color: #f4f4f4;
+    background-image: url("./images/footer.svg");
+    height: 300px;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    a {
+      color: $text_color;
+      font-weight: bold;
+      font-size: $text_size_small;
+      line-height: 23px;
+    }
+    //display: inline-block;
+  }
+  ul {
+    //font-size: 50px;
+    list-style: none;
+    line-height: 42px;
   }
 }
