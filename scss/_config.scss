@@ -1,0 +1,21 @@
+$background_color: #fff;
+$text_color: #002240;
+$text_color_light: #537089;
+$sizeLg: 1440px;
+$text_size_small: 18px;
+$text_size_middle: 21px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 320px,
+  md: 768px,
+  lg: 1024px,
+);
+
+$container-max-widths: (
+  sm: 320px,
+  md: 720px,
+  lg: 1440px,
+);
+
+$grid-gutter-width: 30px !default;
