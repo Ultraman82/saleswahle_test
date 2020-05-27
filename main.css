@@ -1,0 +1,188 @@
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 575.98px) {
+  html {
+    font-size: 10px; } }
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: "Source Sans Pro";
+  margin: 0;
+  display: block; }
+
+h2 {
+  padding-top: 50px;
+  font-weight: bold;
+  line-height: 3.875rem;
+  font-size: 3.625rem;
+  text-align: center; }
+  h2.top-text {
+    text-align: left;
+    margin-right: 100px; }
+
+h4 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 34px; }
+
+p {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 2rem; }
+
+.hero-container {
+  height: 200px;
+  background-image: url("./images/hero-img.jpg");
+  background-position: center; }
+
+figure {
+  position: relative;
+  height: 250px; }
+  figure .hero-container {
+    height: inherit;
+    background-image: url("./images/hero-img.jpg");
+    background-position: center; }
+  figure img {
+    position: absolute;
+    width: inherit;
+    transform: translate(-50%, -50%); }
+
+.custom-card {
+  height: 283px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 20px 50px;
+  max-width: 47%; }
+
+.wrapper {
+  justify-content: center;
+  top: 0px;
+  max-width: 1440px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 50px 100px; }
+  .wrapper-culture .culture-middle {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    text-align: center;
+    margin-top: 50px; }
+  .wrapper-culture .glass-face {
+    width: 5rem; }
+  .wrapper-culture .description {
+    color: #537089; }
+  .wrapper-progress .blue-container {
+    padding: 0px 20px;
+    background-color: #eff8ff;
+    background-size: cover;
+    height: 879px;
+    border-radius: 5px; }
+    .wrapper-progress .blue-container .year {
+      font-weight: bold;
+      font-size: 1.625rem;
+      line-height: 2rem;
+      color: #0688fa;
+      text-align: right;
+      padding: 80px 0px; }
+    .wrapper-progress .blue-container .mail {
+      background: linear-gradient(#0688fa, #0688fa) no-repeat center/3px 100%;
+      height: inherit;
+      padding: 80px 0px; }
+      .wrapper-progress .blue-container .mail img {
+        width: 5rem; }
+    .wrapper-progress .blue-container .description {
+      font-weight: 600;
+      font-size: 1.625rem;
+      padding: 80px 0px;
+      color: #002240; }
+  .wrapper-offices {
+    background-image: url("./images/officesbg.svg");
+    margin-bottom: 0px;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat; }
+    .wrapper-offices .offices-card h2 {
+      font-weight: bold;
+      font-size: 2rem;
+      line-height: 2rem; }
+    .wrapper-offices .offices-card p {
+      font-size: 1.1rem;
+      line-height: 2rem; }
+  .wrapper-investors {
+    background-image: url("./images/investorbg.svg");
+    margin-top: 0px;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat; }
+    .wrapper-investors img {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%); }
+  .wrapper-future {
+    color: #fff;
+    align-self: center;
+    text-align: center;
+    background-color: #329dfa; }
+    .wrapper-future h1 {
+      font-weight: bold;
+      font-size: 3rem;
+      line-height: 120%; }
+    .wrapper-future .btn-demo {
+      background: #ffffff;
+      mix-blend-mode: normal;
+      /* Shadow / Button */
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      color: #002240;
+      margin: 10px; }
+    .wrapper-future .btn-read {
+      border-color: #fff;
+      border-radius: 5px;
+      margin: 10px; }
+
+.nav {
+  font-weight: bold; }
+  .nav-container {
+    position: relative;
+    top: -50px; }
+  .nav-link {
+    color: #002240;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.44rem; }
+
+footer {
+  margin: 0 auto;
+  display: block;
+  max-width: 1440px;
+  font-size: 1.1rem; }
+  footer .privacy {
+    margin: 30px; }
+  footer span {
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 32px; }
+  footer .footer-lower {
+    bottom: 0px;
+    background-color: #f4f4f4;
+    background-image: url("./images/footer.svg");
+    height: 300px;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat; }
+    footer .footer-lower a {
+      color: #002240;
+      font-weight: bold;
+      font-size: 1.1rem;
+      line-height: 1.44rem; }
+  footer ul {
+    font-size: 3.125rem;
+    list-style: none;
+    line-height: 2.63rem; }
