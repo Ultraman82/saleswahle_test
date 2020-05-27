@@ -3,19 +3,143 @@ $text_color: #002240;
 $text_color_light: #537089;
 $sizeLg: 1440px;
 $text_size_small: 18px;
-$text_size_middle: 21px;
+$text-size-middle: 26px;
+$font18: 18px;
+$font21: 21px;
+$font26: 26px;
+$font32: 32px;
+$font48: 48px;
+$font58: 58px;
 
-$grid-breakpoints: (
-  xs: 0,
-  sm: 320px,
-  md: 768px,
-  lg: 1024px,
-);
+/* Small devices (landscape phones, 544px and up) */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  html {
+    font-size: 10px;
+  }
+  // .blue-container {
+  //   font-size: 16px;
+  //   & {
+  //     padding: 40px 0;
+  //   }
+  // }
+  // body {
+  //   width: inherit;
+  // }
+  // h2 {
+  //   font-size: 32x;
+  // }
+  // h3 {
+  //   font-size: 26px;
+  // }
+  // p {
+  //   font-size: 16px;
+  // }
+  // .culture-middle {
+  //   font-size: 16px;
+  // }
+  // .offices-card {
+  //   h2 {
+  //     font-size: 26px;
+  //   }
+  // }
+  // h1 {
+  //   font-size: 32px;
+  // }
+}
 
-$container-max-widths: (
-  sm: 320px,
-  md: 720px,
-  lg: 1440px,
-);
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  //   h2 {
+  //     font-size: 32x;
+  //   }
+  //   h3 {
+  //     font-size: 26px;
+  //   }
+  //   p {
+  //     font-size: 16px;
+  //   }
+  //   .culture-middle {
+  //     font-size: 16px;
+  //   }
+  //   .offices-card {
+  //     h2 {
+  //       font-size: 26px;
+  //     }
+  //   }
+  //   h1 {
+  //     font-size: 32px;
+  //   }
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width: 991px) {
+  //   .blue-container {
+  //     font-size: 18px;
+  //   }
+  //   h2 {
+  //     font-size: 32x;
+  //   }
+  //   h3 {
+  //     font-size: 26px;
+  //   }
+  //   p {
+  //     font-size: 16px;
+  //   }
+  //   .culture-middle {
+  //     font-size: 16px;
+  //   }
+  //   .offices-card {
+  //     h2 {
+  //       font-size: 26px;
+  //     }
+  //   }
+  //   h1 {
+  //     font-size: 32px;
+  //   }
+}
 
-$grid-gutter-width: 30px !default;
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  //   .blue-container {
+  //     font-size: 26px;
+  //   }
+  //   h2 {
+  //     font-size: 58px;
+  //   }
+  //   h3 {
+  //     font-size: 32px;
+  //   }
+  //   p {
+  //     font-size: 18px;
+  //   }
+  //   .culture-middle {
+  //     font-size: 21px;
+  //   }
+  //   .offices-card {
+  //     h2 {
+  //       font-size: 32px;
+  //     }
+  //   }
+  //   h1 {
+  //     font-size: 48px;
+  //   }
+}
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 320px,
+//   md: 768px,
+//   lg: 1024px,
+// );
+
+// $container-max-widths: (
+//   sm: 320px,
+//   md: 720px,
+//   lg: 1440px,
+// );
+
+// $grid-gutter-width: 30px !default;
