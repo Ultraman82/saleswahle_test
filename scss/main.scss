@@ -21,10 +21,10 @@ h2 {
     margin-right: 100px;
   }
 }
-h4 {
+h3 {
   font-weight: bold;
-  font-size: 2rem;
-  line-height: 34px;
+  font-size: 1.31rem;
+  line-height: 2rem;
 }
 
 p {
@@ -165,14 +165,21 @@ figure {
       top: 50%;
       transform: translate(-50%, -50%);
     }
+    .investors-container {
+      padding-top: 50px;
+    }
   }
   &-future {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 15rem;
+    //padding-top: 50px;
     color: #fff;
-    h1 {
-      font-weight: bold;
-      font-size: 3rem;
-      line-height: 120%;
-    }
+    // h1 {
+    //   font-weight: bold;
+    //   font-size: 3rem;
+    //   line-height: 120%;
+    // }
     align-self: center;
     text-align: center;
 
@@ -246,11 +253,17 @@ footer {
       font-size: 1.1rem;
       line-height: 1.44rem;
     }
+    .icons {
+      margin-top: 30px;
+    }
     //display: inline-block;
   }
   ul {
     font-size: 3.125rem;
     list-style: none;
     line-height: 2.63rem;
+    li {
+      font-size: 1.1rem;
+    }
   }
 }

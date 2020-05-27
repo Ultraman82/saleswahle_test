@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https//Ultraman82.github.io/Portfolo",
+  "homepage": "https://github.com/Ultraman82/saleswahle_test",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/ --recursive",
     "deploy": "gh-pages -d dist"
