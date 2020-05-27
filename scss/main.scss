@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-  padding-top: 50px;
+  padding-top: 6rem;
   font-weight: bold;
   line-height: 3.875rem;
   font-size: 3.625rem;
@@ -31,6 +31,9 @@ p {
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 2rem;
+}
+.text-p {
+  padding-top: 6rem;
 }
 
 .hero-container {
@@ -62,6 +65,9 @@ figure {
     // margin-right: auto;
     // width: 100%;
   }
+}
+nav {
+  padding: 3rem;
 }
 
 .custom-card {
